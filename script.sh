@@ -146,20 +146,22 @@
 
 
 
+#Arithmetic Operations
+read INPUT
+printf "%.3f" $(echo "$INPUT"|bc -l)
+
+
 #Compute the Average
-IFS=$'\n' read -r -d '' -a my_array < <( seq 10 )
+#IFS=$'\n' read -r -d '' -a my_array < <( seq 10 )
+# IFS=$'\n' read -r -d '' -a my_array
+# read -r -d '' -a my_array
+
+read -d '' -a my_array
 NUM=${my_array[0]}
-SUM=3 
+SUM=0  
 for i in ${my_array[@]}
 do 
   SUM=$((SUM+i))
 done
 
-# awk "BEGIN{print $((SUM-NUM)/NUM))}"
-
-# printf %.3f\\n "$((SUM-NUM)/NUM))"
-# printf %.3f\\n "$((1000000000*20/7))e-9"
-
-# printf %.3f $(echo "($SUM-$NUM)/$NUM" | bc -l)
-
-printf "%.3f" $(echo "($SUM-$NUM)/$NUM" | bc -l )
+printf "%.3f" $(echo "($SUM-$NUM)/$NUM" | bc -l)
