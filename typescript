@@ -1,0 +1,39 @@
+Script started on 2022-04-03 17:12:53+10:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="282" LINES="79"]
+: command not found
+]0;idd@IDD-PC-NR200P: ~/bash_shell[1m[38;5;33midd(B[m[38;5;48m@IDD-PC-NR200P:[01;34m~/bash_shell[00m$ ./sc[K[K[K[Kevn
+
+Command 'evn' not found, did you mean:
+
+  command 'mvn' from deb maven (3.6.3-1)
+  command 'svn' from deb subversion (1.13.0-3)
+  command 'eqn' from deb groff-base (1.22.4-4build1)
+  command 'env' from deb coreutils (8.30-3ubuntu2)
+
+Try: sudo apt install <deb name>
+
+]0;idd@IDD-PC-NR200P: ~/bash_shell[1m[38;5;33midd(B[m[38;5;48m@IDD-PC-NR200P:[01;34m~/bash_shell[00m$ env
+SHELL=/bin/bash
+WSL_DISTRO_NAME=Ubuntu-20.04
+NAME=IDD-PC-NR200P
+PWD=/home/idd/bash_shell
+LOGNAME=idd
+HOME=/home/idd
+LANG=C.UTF-8
+WSL_INTEROP=/run/WSL/7727_interop
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+LESSCLOSE=/usr/bin/lesspipe %s %s
+TERM=xterm-256color
+LESSOPEN=| /usr/bin/lesspipe %s
+USER=idd
+DISPLAY=127.0.0.1:0.0
+SHLVL=2
+WSLENV=
+PATH=/usr/local/bin/:/usr/local/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Users/wdai9/Dropbox/SOFTWA~1/MOBAXT~1/persistent root/slash/wdai9_iddpcnr200p/bin:/mnt/c/Windows/:/mnt/c/Windows/system32/:/mnt/c/Program Files/Eclipse Adoptium/jdk-17.0.2.8-hotspot/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/bin:/mnt/c/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v11.3/libnvvp:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/NVIDIA Corporation/Nsight Compute 2021.1.1/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files (x86)/dotnet/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PowerShell/7/:/mnt/c/Users/wdai9/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/wdai9/AppData/Local/atom/bin:/mnt/c/Users/wdai9/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/wdai9/AppData/Roaming/npm:/mnt/c/Windows/sysnative/
+HOSTTYPE=x86_64
+OLDPWD=/home/idd
+_=/usr/bin/env
+]0;idd@IDD-PC-NR200P: ~/bash_shell[1m[38;5;33midd(B[m[38;5;48m@IDD-PC-NR200P:[01;34m~/bash_shell[00m$ bash script.sh 
+hello, idd. I wish to list some files of yours
+listing files in the current dir, /home/idd/bash_shell
+script.sh  typescript
+]0;i
