@@ -151,12 +151,12 @@ read INPUT
 printf "%.3f" $(echo "$INPUT"|bc -l)
 
 
-#Compute the Average
-#IFS=$'\n' read -r -d '' -a my_array < <( seq 10 )
+# Compute the Average
+# IFS=$'\n' read -r -d '' -a my_array < <( seq 10 )
 # IFS=$'\n' read -r -d '' -a my_array
 # read -r -d '' -a my_array
 
-read -d '' -a my_array
+read -d '' -a my_array 
 NUM=${my_array[0]}
 SUM=0  
 for i in ${my_array[@]}
@@ -165,3 +165,45 @@ do
 done
 
 printf "%.3f" $(echo "($SUM-$NUM)/$NUM" | bc -l)
+
+#Cut #1
+while read line
+do 
+  echo $line | cut -c 3
+done
+
+#Cut #1.1 
+read line < <(echo "0000 192.168.1.100 192.168.100.1")
+echo $line | cut -d " " -f 1-3 
+echo $line | cut -d " " -f 1-3 | cut -d "." -f 1 
+echo $line | cut -d " " -f 1-3 | cut -d " " -f 2  | cut -d "." -f 4 
+echo $line | cut -d " " -f 1-3 | cut -d " " -f 2  | cut -d "." -f 4 | cut -c 1
+
+Cut #2 
+while read line
+do 
+  echo $line | cut -c 2,7 
+done
+
+Cut #3
+while read line
+do 
+  echo $line | cut -c 2-7 
+done
+
+Cut #4
+while read line
+do 
+  echo $line | cut -c 1-4
+done
+
+Cut #5
+while read line
+do 
+  echo "$line" | cut -f 1-3
+done
+
+#When double quotes are used white space (tab space is a form of white space) is preserved. 
+#When double quotes aren't used tabspace isn't preserved. 
+#cut by default uses tabspace as a delimiter to extract the fields. 
+#If no tabspaces are present (and if delimiter option of cut hasn't been modified) then cut wont work.
