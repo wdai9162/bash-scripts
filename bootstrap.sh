@@ -8,6 +8,11 @@ exec > >(tee -a $LOG_FILE) 2>&1
 
 echo "Starting the bootstrap script..."
 
+# Check if sudo is available, otherwise define it as a no-op
+if ! command -v sudo &> /dev/null; then
+    sudo() { "$@"; }
+fi
+
 # Check if hostname is provided as an environment variable, otherwise prompt for it
 if [ -z "$NEW_HOSTNAME" ]; then
   echo "Please enter the new hostname: "
